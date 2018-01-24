@@ -35,7 +35,7 @@ public class TicketBookingController {
 	
 	
 	@GetMapping(value="/ticket/allticket")
-	public Iterable<Ticket> getAllTicket(){
+	public Iterable<Ticket> getAllTicket(){ 
 		
 		return ticketService.getAllTicket();
 	}
